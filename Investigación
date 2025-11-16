@@ -1,1 +1,79 @@
 
+# Documentación: Markdown en Proyectos de Software
+
+## ¿Qué es Markdown y por qué se utiliza en proyectos de software?
+
+### Definición
+Markdown es un lenguaje de marcado ligero creado por John Gruber en 2004. Utiliza una sintaxis simple y fácil de aprender que se convierte a HTML válido. Su objetivo principal es permitir a los escritores crear contenido que sea legible tanto en su forma original como cuando está convertido.
+
+### Por qué se usa en proyectos de software
+
+**Legibilidad y Simplicidad**
+- Sintaxis intuitiva que no requiere conocimientos técnicos avanzados
+- Archivos de texto plano que son fáciles de versionar
+- Se puede leer y editar en cualquier editor de texto
+
+**Estandarización de Documentación**
+- README.md como punto de entrada estándar en repositorios
+- Documentación consistente across diferentes proyectos
+- Fácil mantenimiento y actualización
+
+**Integración con Herramientas de Desarrollo**
+- Compatibilidad nativa con GitHub, GitLab, Bitbucket
+- Renderizado en IDEs y editores de código
+- Soporte en sistemas de CI/CD
+
+**Colaboración Efectiva**
+- Merge conflicts fáciles de resolver comparado con formatos binarios
+- Revisiones de código más claras
+- Comentarios y discusiones basadas en texto
+
+## Ejemplo Práctico de Uso de Markdown
+
+
+Encabezados
+# Encabezado 1 
+## Encabezado 2 
+### Encabezado 3 
+#### Encabezado 4 
+##### Encabezado 5
+###### Encabezado 6
+
+Listas
+
+Lista no ordenada 
+
+- Elemento de lista 1
+- Elemento de lista 2
+  - Subelemento 2.1
+  - Subelemento 2.2
+
+Lista ordenada 
+
+1. Primer elemento
+2. Segundo elemento
+3. Tercer elemento
+
+Tablas 
+
+| Columna 1 | Columna 2 | Columna 3 |
+|-----------|-----------|-----------|
+| Dato A1   | Dato A2   | Dato A3   |
+| Dato B1   | Dato B2   | Dato B3   |
+| Dato C1   | Dato C2   | Dato C3   |
+
+Enlaces e Imagenes 
+
+Enlaces
+
+[]()
+[Texto del enlace](https://.com)
+
+Imagenes 
+
+![]()
+![Foto](ruta/a/la/imagen.jpg)
+
+
+
+
